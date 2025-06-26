@@ -1,0 +1,18 @@
+.footer {
+  background-color: var(--footer-bg);
+  padding: 15px 20px;
+  text-align: center;
+  color: var(--footer-text);
+  margin-top: 40px;
+}
+
+/* Переменные темы */
+body.light {
+  --footer-bg: #f0f0f0;
+  --footer-text: #666666;
+}
+
+body.dark {
+  --footer-bg: #1a1a1a;
+  --footer-text: #aaaaaa;
+}

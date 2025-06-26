@@ -1,0 +1,88 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "courses": "Courses",
+    "blognews": "Blog & News",
+    "contact": "Contacts",
+    "professions": "Proffesions"
+  },
+  "banner": {
+    "moreOffers": "More offers",
+    "mainTitle": "There is\nsomething else\nfor you",
+    "button": "All products 🛒",
+    "blogSub": "World of hearing technology",
+    "blogTitle": "View our blog",
+    "aboutSub": "Discover\nour history",
+    "aboutTitle": "About us",
+    "contactSub": "Have some\nquestions?",
+    "contactTitle": "Contact us"
+  },
+  "about": {
+    "description": "Мы опираемся на нужды бизнеса, а не на фишки сервиса — если по какой-то причине Notion вам не подходит, то сразу скажем вам об этом и подберём нужный инструмент",
+    "years": "года на рынке",
+    "projects": "реализованных проектов",
+    "staff": "сотрудников фирм работают в наших системах",
+    "saved": "сэкономлено на тарифах Notion"
+  },
+  "courses": {
+    "viewAll": "All courses",
+    "more": "More details",
+    "enroll": "Enroll",
+    "language": "Language",
+    "duration": "Duration",
+    "format": "Format",
+    "lang": "Russian, Uzbek",
+    "duration3": "from 3 months",
+    "duration4": "from 4 months",
+    "online": "Online",
+    "general": "General English",
+    "it": "IT English",
+    "ielts": "IELTS Preparation",
+    "japanese": "Japanese (Basic)",
+    "individual": "General English (Individual)",
+    "chinese": "Chinese for Beginners"
+  },
+  "professions": {
+    "viewAll": "All professions",
+    "accountant": "Accountant",
+    "designer": "Дизайнер интерьера",
+    "developer": "Frontend-разработчик",
+    "marketer": "Интернет-маркетолог",
+    "hr": "HR-менеджер",
+    "pm": "Project Manager",
+    "language": "Язык",
+    "durationTitle": "Продолжительность",
+    "formatTitle": "Формат",
+    "lang": "Русский, Узбекский",
+    "duration": "от 3 месяцев",
+    "format": "Онлайн",
+    "more": "Подробнее",
+    "enroll": "Записаться"
+  },
+  "promo": {
+    "title": "Enlight Club.",
+    "description": "description",
+    "more": "Learn more"
+  },
+  "blog": {
+    "viewAll": "Все профессии",
+    "title1": "Название Новости",
+    "desc1": "Краткое описание",
+    "date1": "22.05.2025",
+    "title2": "Новая статья",
+    "desc2": "Ещё одно описание",
+    "date2": "15.05.2025",
+    "title3": "Новости компании",
+    "desc3": "Описание новости",
+    "date3": "01.05.2025"
+  },
+  "apply": {
+    "title": "Записаться на курс или получить бесплатную консультацию",
+    "name": "Имя",
+    "phone": "Телефон",
+    "email": "Электронная почта",
+    "button": "Записаться на курс",
+    "privacy": "Отправляя заявку, вы даёте согласие на обработку своих персональных данных в соответствии с <a href='#'>политикой конфиденциальности</a>."
+  }
+}
