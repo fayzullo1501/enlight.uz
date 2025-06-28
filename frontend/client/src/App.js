@@ -12,9 +12,16 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Home from "./pages/Home";
 import About from "./pages/About";
-import Courses from "./pages/Courses";
-import BlogNews from "./pages/BlogNews";
+import CoursesPage from "./pages/CoursesPage";
+import BlogNewsPage from "./pages/BlogNewsPage";
 import Contact from "./pages/Contact";
+import ScrollToTopButton from "./components/ScrollToTopButton";
+import DetailsPage from "./pages/DetailsPage";
+import BlogNewsDetailsPage from "./pages/BlogNewsDetailsPage";
+import ProfessionsPage from "./pages/ProfessionsPage";
+
+
+
 
 function LanguageWrapper() {
   const { lang } = useParams();
@@ -32,11 +39,15 @@ function LanguageWrapper() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
-        <Route path="/courses" element={<Courses />} />
-        <Route path="/blognews" element={<BlogNews />} />
+        <Route path="/courses" element={<CoursesPage />} />
+        <Route path="/professions" element={<ProfessionsPage />} />
+        <Route path="/blognews" element={<BlogNewsPage />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/:type/:id" element={<DetailsPage />} />
+        <Route path="/blog/:id" element={<BlogNewsDetailsPage />} />
       </Routes>
       <Footer />
+      <ScrollToTopButton />
     </>
   );
 }

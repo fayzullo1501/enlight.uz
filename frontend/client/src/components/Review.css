@@ -1,0 +1,166 @@
+.review-section {
+  padding: 48px 0;
+  background: #fff;
+}
+
+.review-container {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+.review-title {
+  text-align: left;
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+
+.review-slider-wrapper {
+  overflow: hidden;
+  width: 100%;
+  position: relative;
+}
+
+.review-slider {
+  display: flex;
+  transition: transform 0.4s ease;
+  will-change: transform;
+}
+
+.review-card {
+  flex: 0 0 calc(100% / 1.5);
+  max-width: calc(100% / 1.5);
+  padding-left: 0;
+  padding-right: 20px;
+  box-sizing: border-box;
+}
+
+.review-content {
+  background: #f3f4f6;
+  border-radius: 24px;
+  padding: 24px 28px;
+  display: flex;
+  flex-direction: column;
+  min-height: 260px;
+}
+
+.review-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.review-avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 12px;
+}
+
+.review-name {
+  font-size: 15px;
+  font-weight: 700;
+  margin-bottom: 2px;
+  color: #111827;
+}
+
+.review-course {
+  font-size: 13px;
+  color: #6b7280;
+  font-weight: 400;
+}
+
+.review-stars {
+  color: #facc15;
+  font-size: 16px;
+  margin: 6px 0 16px 0;
+}
+
+.review-text {
+  font-size: 15px;
+  color: #111827;
+  line-height: 1.6;
+}
+
+.review-buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 24px;
+  gap: 16px;
+}
+
+.review-btn {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 1px solid #000;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background-color 0.2s ease, border-color 0.2s ease;
+}
+
+.review-btn svg {
+  width: 16px;
+  height: 16px;
+  stroke: #000;
+}
+
+.review-btn:hover:enabled {
+  background-color: #f3f4f6;
+}
+
+.review-btn:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+.review-section.light {
+  background: #ffffff;
+}
+
+.review-section.dark {
+  background: #121212;
+}
+
+.review-content.light {
+  background: #f3f4f6;
+  color: #111827;
+}
+
+.review-content.dark {
+  background: #1e1e1e;
+  color: #f9fafb;
+}
+
+.review-name.dark,
+.review-text.dark,
+.review-course.dark {
+  color: #f9fafb;
+}
+
+body.dark .review-content {
+  background: #1e1e1e;
+  color: #fff;
+}
+
+body.dark .review-name,
+body.dark .review-text,
+body.dark .review-course {
+  color: #fff;
+}
+
+
+
+/* Mobile */
+@media (max-width: 768px) {
+  .review-card {
+    flex: 0 0 100%;
+    max-width: 100%;
+    padding-right: 0;
+  }
+}

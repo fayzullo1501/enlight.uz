@@ -5,18 +5,19 @@
     "courses": "Курсы",
     "blognews": "Блог и новости",
     "contact": "Контакты",
-    "professions": "Профессии"
+    "professions": "Профессии",
+    "class": "Войти в класс"
   },
   "banner": {
-  "moreOffers": "Цифровая среда обучения",
-  "mainTitle": "Помогаем людям приобретать знания, навыки и уверенность для развития карьеры и жизни",
-  "button": "Все курсы",
-  "blogSub": "ИНСАЙТЫ И ИДЕИ",
-  "blogTitle": "Читайте наши статьи и новости",
-  "aboutSub": "УЗНАЙТЕ БОЛЬШЕ О НАС",
-  "aboutTitle": "О компании",
-  "contactSub": "ЕСТЬ ВОПРОСЫ ИЛИ ПРЕДЛОЖЕНИЯ?",
-  "contactTitle": "Связаться с нами"
+    "moreOffers": "Цифровая среда обучения",
+    "mainTitle": "Помогаем людям приобретать знания, навыки и уверенность для развития карьеры и жизни",
+    "button": "Все курсы",
+    "blogSub": "ИНСАЙТЫ И ИДЕИ",
+    "blogTitle": "Читайте наши статьи и новости",
+    "aboutSub": "УЗНАЙТЕ БОЛЬШЕ О НАС",
+    "aboutTitle": "О компании",
+    "contactSub": "ЕСТЬ ВОПРОСЫ ИЛИ ПРЕДЛОЖЕНИЯ?",
+    "contactTitle": "Связаться с нами"
   },
   "about": {
     "description": "Мы опираемся на нужды бизнеса, а не на фишки сервиса — если по какой-то причине Notion вам не подходит, то сразу скажем вам об этом и подберём нужный инструмент",
@@ -41,7 +42,9 @@
     "ielts": "Подготовка к IELTS",
     "japanese": "Японский (базовый)",
     "individual": "General English (Индивидуальный)",
-    "chinese": "Китайский для начинающих"
+    "chinese": "Китайский для начинающих",
+    "currency": "сум",
+    "monthlySuffix": "сум/мес."
   },
   "professions": {
     "viewAll": "Все профессии",
@@ -56,13 +59,44 @@
     "formatTitle": "Формат",
     "lang": "Русский, Узбекский",
     "duration": "от 3 месяцев",
+    "currency": "сум",
+    "monthlySuffix": "сум/мес.",
     "format": "Онлайн",
     "more": "Подробнее",
     "enroll": "Записаться"
   },
+  "certificate": {
+    "title": "Сертификат от Enlight",
+    "description": "Подтвердит, что вы прошли курс, и станет дополнительным аргументом при устройстве на работу.",
+    "button": "Посмотреть сертификат"
+  },
+  "reviews": {
+    "title": "Что говорят о нас",
+    "coursePrefix": "Курс",
+    "0": {
+      "name": "Руслан Исмаилов, Узбекистан, г. Ташкент",
+      "course": "Профессия 1С-разработчик",
+      "text": "Всё супер, особенно работа куратора. Понравилось своевременное рассмотрение практических работ, а также чат-группа в Telegram: в любое время можно задать интересующий вопрос, и на него ответят."
+    },
+    "1": {
+      "name": "Мухаммаджон Набиев, Узбекистан, г. Фергана",
+      "course": "Профессия Fullstack-разработчик",
+      "text": "Всё понятно и конкретно объясняется. До начала учёбы я думал, что изучить профессию будет просто нереально, но Skillbox доказал обратное. Спасибо огромное!"
+    },
+    "2": {
+      "name": "Алия Рахимова, Узбекистан, г. Самарканд",
+      "course": "Профессия Графический дизайнер",
+      "text": "Очень крутой подход! Много практики, интересные задания и отличные наставники."
+    },
+    "3": {
+      "name": "Шерзод Каримов, Узбекистан, г. Андижан",
+      "course": "Профессия Data Analyst",
+      "text": "Подача материала простая и доступная. Научился многому за короткое время."
+    }
+  },
   "promo": {
     "title": "Enlight Club.",
-    "description": "описание",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tortor augue, aliquet at est condimentum, posuere vehicula velit. Sed convallis tellus neque. Nam eget venenatis eros, vitae auctor mi. Etiam turpis urna, sollicitudin pretium imperdiet eget, fringilla in justo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eget mi risus. Duis dignissim feugiat elementum. Phasellus faucibus neque id nulla feugiat laoreet. Curabitur at nibh eget orci interdum tincidunt. Aliquam in efficitur orci.",
     "more": "Подробнее"
   },
   "blog": {
@@ -85,5 +119,32 @@
     "button": "Записаться на курс",
     "policyText": "Отправляя заявку, вы даёте согласие на обработку своих персональных данных в соответствии с",
     "policyLink": "политикой конфиденциальности"
+  },
+  "footer": {
+    "contactCenter": "Контактный центр",
+    "info": "Информация",
+    "publicOffer": "Публичный договор",
+    "privacyPolicy": "Политика обработки персональных данных",
+    "sitemap": "Карта сайта",
+    "allCategories": "Все направления",
+    "design": "Дизайн",
+    "marketing": "Маркетинг",
+    "finance": "Финансы",
+    "drones": "Школа дронов",
+    "media": "Кино и музыка",
+    "startup": "Начать своё дело",
+    "generalEdu": "Общее образование",
+    "programming": "Программирование",
+    "analytics": "Аналитика",
+    "management": "Управление",
+    "games": "Игры",
+    "hobbies": "Хобби и увлечения",
+    "marketplaces": "Маркетплейсы",
+    "psychology": "Психология",
+    "other": "Другое",
+    "legal": "НОУ «ENLIGHT», ИНН 311938090",
+    "address": "Республика Узбекистан, г. Ташкент,\nМирзо-Улугбекский район, Проспект Мустакиллик 65, 1 этаж",
+    "registration": "Регистрационный номер 982705",
+    "slogan": "Цифровая среда обучения."
   }
 }

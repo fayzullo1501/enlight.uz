@@ -3,6 +3,8 @@ import Banner from "../components/Banner";
 import About from "../components/About";
 import Courses from "../components/Courses";
 import Professions from "../components/Professions";
+import Certificate from "../components/Certificate";
+import Review from "../components/Review"; 
 import Promo from "../components/Promo";
 import BlogNews from "../components/BlogNews";
 import ApplyForm from "../components/ApplyForm";
@@ -16,6 +18,8 @@ function Home() {
       <About />
       <Courses />
       <Professions />
+      <Certificate />
+      <Review />
       <Promo />
       <BlogNews />
       <ApplyForm />

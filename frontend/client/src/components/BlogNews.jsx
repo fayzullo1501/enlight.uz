@@ -1,35 +1,25 @@
 import { useTranslation } from "react-i18next";
 import { useNavigate } from "react-router-dom";
+import { useEffect, useState } from "react";
+import blogNews from "../data/blogNewsData";
 import "./BlogNews.css";
-
-import img1 from "../assets/banner-2.png";
-import img2 from "../assets/banner-2.png";
-import img3 from "../assets/banner-2.png";
 
 function BlogNews() {
   const { t, i18n } = useTranslation();
   const navigate = useNavigate();
+  const [isMobile, setIsMobile] = useState(false);
 
-  const posts = [
-    {
-      title: t("blog.title1"),
-      desc: t("blog.desc1"),
-      date: t("blog.date1"),
-      image: img1,
-    },
-    {
-      title: t("blog.title2"),
-      desc: t("blog.desc2"),
-      date: t("blog.date2"),
-      image: img2,
-    },
-    {
-      title: t("blog.title3"),
-      desc: t("blog.desc3"),
-      date: t("blog.date3"),
-      image: img3,
-    },
-  ];
+  useEffect(() => {
+    const checkMobile = () => {
+      setIsMobile(window.innerWidth <= 768);
+    };
+    checkMobile();
+    window.addEventListener("resize", checkMobile);
+    return () => window.removeEventListener("resize", checkMobile);
+  }, []);
+
+  const posts = blogNews[i18n.language] || [];
+  const visiblePosts = posts.slice(0, 3);
 
   return (
     <section className="blog-news">
@@ -44,8 +34,13 @@ function BlogNews() {
       </div>
 
       <div className="news-grid">
-        {posts.map((post, index) => (
-          <div className="news-card" key={index}>
+        {visiblePosts.map((post) => (
+          <div
+            className="news-card"
+            key={post.id}
+            onClick={() => navigate(`/${i18n.language}/blog/${post.id}`)}
+            style={{ cursor: "pointer" }}
+          >
             <div className="news-image">
               <img src={post.image} alt={post.title} />
             </div>

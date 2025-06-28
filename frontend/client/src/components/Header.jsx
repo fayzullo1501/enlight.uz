@@ -51,6 +51,7 @@ function Header() {
           <Link to={`/${i18n.language}/`}>{t("nav.home")}</Link>
           <Link to={`/${i18n.language}/about`}>{t("nav.about")}</Link>
           <Link to={`/${i18n.language}/courses`}>{t("nav.courses")}</Link>
+          <Link to={`/${i18n.language}/professions`}>{t("nav.professions")}</Link>
           <Link to={`/${i18n.language}/blognews`}>{t("nav.blognews")}</Link>
           <Link to={`/${i18n.language}/contact`}>{t("nav.contact")}</Link>
         </nav>
@@ -74,8 +75,12 @@ function Header() {
             {theme === "light" ? "🌙" : "☀️"}
           </button>
 
-          <a href="https://lms.enlight.uz" className="class-btn" target="_blank" rel="noreferrer">
-            Войти в класс
+          <a href="https://lms.enlight.uz"
+            className="class-btn"
+            target="_blank"
+            rel="noreferrer"
+          >
+            {t("nav.class")}
           </a>
         </div>
       </div>
@@ -85,6 +90,7 @@ function Header() {
           <Link to={`/${i18n.language}/`}>{t("nav.home")}</Link>
           <Link to={`/${i18n.language}/about`}>{t("nav.about")}</Link>
           <Link to={`/${i18n.language}/courses`}>{t("nav.courses")}</Link>
+          <Link to={`/${i18n.language}/professions`}>{t("nav.professions")}</Link>
           <Link to={`/${i18n.language}/blognews`}>{t("nav.blognews")}</Link>
           <Link to={`/${i18n.language}/contact`}>{t("nav.contact")}</Link>
           <div onClick={() => setShowLangs(!showLangs)} className="lang-select">

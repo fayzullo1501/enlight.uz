@@ -1,0 +1,96 @@
+.certificate-section {
+  padding: 40px 20px;
+  max-width: 1300px;
+  margin: 0 auto;
+  background: #fff;
+}
+
+.certificate-card {
+  background: #181818;
+  color: #fff;
+  border-radius: 24px;
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.certificate-left {
+  flex: 1 1 500px;
+}
+
+.certificate-img {
+  width: 100%;
+  border-radius: 12px;
+}
+
+.certificate-right {
+  flex: 1 1 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 16px;
+  padding-right: 300px;
+  max-width: 440px;
+}
+
+.certificate-right h2 {
+  margin: 0;
+  font-size: 36px;
+  font-weight: 600;
+}
+
+.certificate-right p {
+  font-size: 24px;
+  line-height: 1.2;
+}
+
+.certificate-right button {
+  background: #fff;
+  color: #000;
+  border: none;
+  padding: 18px 26px;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: 100;
+  cursor: pointer;
+  width: fit-content;
+}
+
+.certificate-section.light {
+  background: #fff;
+}
+
+.certificate-section.dark {
+  background: #121212;
+}
+
+
+/* Мобильная адаптация */
+@media (max-width: 768px) {
+  .certificate-card {
+    flex-direction: column;
+    padding: 24px 16px;
+  }
+
+  .certificate-left,
+  .certificate-right {
+    flex: unset;
+    width: 100%;
+    padding-right: 0;
+  }
+
+  .certificate-right h2 {
+    font-size: 24px;
+  }
+
+  .certificate-right p {
+    font-size: 16px;
+  }
+
+  .certificate-right button {
+    font-size: 16px;
+    padding: 14px 20px;
+  }
+}

@@ -5,7 +5,8 @@
     "courses": "Courses",
     "blognews": "Blog & News",
     "contact": "Contacts",
-    "professions": "Proffesions"
+    "professions": "Proffesions",
+    "class": "Enter Class"
   },
   "banner": {
     "moreOffers": "More offers",
@@ -27,7 +28,7 @@
   },
   "courses": {
     "viewAll": "All courses",
-    "more": "More details",
+    "more": "More",
     "enroll": "Enroll",
     "language": "Language",
     "duration": "Duration",
@@ -39,30 +40,63 @@
     "general": "General English",
     "it": "IT English",
     "ielts": "IELTS Preparation",
-    "japanese": "Japanese (Basic)",
+    "japanese": "Japanese (basic)",
     "individual": "General English (Individual)",
-    "chinese": "Chinese for Beginners"
+    "chinese": "Chinese for Beginners",
+    "currency": "UZS",
+    "monthlySuffix": "UZS/month"
   },
   "professions": {
-    "viewAll": "All professions",
+    "viewAll": "All Professions",
     "accountant": "Accountant",
-    "designer": "Дизайнер интерьера",
-    "developer": "Frontend-разработчик",
-    "marketer": "Интернет-маркетолог",
-    "hr": "HR-менеджер",
+    "designer": "Interior Designer",
+    "developer": "Frontend Developer",
+    "marketer": "Digital Marketer",
+    "hr": "HR Manager",
     "pm": "Project Manager",
-    "language": "Язык",
-    "durationTitle": "Продолжительность",
-    "formatTitle": "Формат",
-    "lang": "Русский, Узбекский",
-    "duration": "от 3 месяцев",
-    "format": "Онлайн",
-    "more": "Подробнее",
-    "enroll": "Записаться"
+    "language": "Language",
+    "durationTitle": "Duration",
+    "formatTitle": "Format",
+    "lang": "Russian, Uzbek",
+    "duration": "from 3 months",
+    "currency": "UZS",
+    "monthlySuffix": "UZS/month",
+    "format": "Online",
+    "more": "More details",
+    "enroll": "Enroll"
+  },
+  "certificate": {
+    "title": "Certificate from Enlight",
+    "description": "Confirms that you have completed the course and will be an added value when applying for a job.",
+    "button": "View certificate"
+  },
+  "reviews": {
+    "title": "What they say about us",
+    "coursePrefix": "Course",
+    "0": {
+      "name": "Ruslan Ismailov, Uzbekistan, Tashkent",
+      "course": "1C Developer Profession",
+      "text": "Everything is great, especially the curator's work. I liked the timely review of practical tasks and the Telegram chat group where you can ask any question and get an answer at any time."
+    },
+    "1": {
+      "name": "Muhammadjon Nabiev, Uzbekistan, Fergana",
+      "course": "Fullstack Developer Profession",
+      "text": "Everything is clear and explained concisely. Before starting, I thought it was impossible to learn the profession, but Skillbox proved otherwise. Thank you very much!"
+    },
+    "2": {
+      "name": "Aliya Rakhimova, Uzbekistan, Samarkand",
+      "course": "Graphic Designer Profession",
+      "text": "Very cool approach! Lots of practice, interesting tasks, and excellent mentors."
+    },
+    "3": {
+      "name": "Sherzod Karimov, Uzbekistan, Andijan",
+      "course": "Data Analyst Profession",
+      "text": "The material is presented in a simple and accessible way. I learned a lot in a short time."
+    }
   },
   "promo": {
     "title": "Enlight Club.",
-    "description": "description",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tortor augue, aliquet at est condimentum, posuere vehicula velit. Sed convallis tellus neque. Nam eget venenatis eros, vitae auctor mi. Etiam turpis urna, sollicitudin pretium imperdiet eget, fringilla in justo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eget mi risus. Duis dignissim feugiat elementum. Phasellus faucibus neque id nulla feugiat laoreet. Curabitur at nibh eget orci interdum tincidunt. Aliquam in efficitur orci.",
     "more": "Learn more"
   },
   "blog": {
@@ -77,12 +111,40 @@
     "desc3": "Описание новости",
     "date3": "01.05.2025"
   },
-  "apply": {
-    "title": "Записаться на курс или получить бесплатную консультацию",
-    "name": "Имя",
-    "phone": "Телефон",
-    "email": "Электронная почта",
-    "button": "Записаться на курс",
-    "privacy": "Отправляя заявку, вы даёте согласие на обработку своих персональных данных в соответствии с <a href='#'>политикой конфиденциальности</a>."
+  "form": {
+    "title": "Sign up for a course or get a free consultation",
+    "name": "Name",
+    "phone": "Phone",
+    "email": "Email",
+    "button": "Enroll in a course",
+    "policyText": "By submitting the form, you agree to the processing of your personal data in accordance with our",
+    "policyLink": "privacy policy"
+  },
+  "footer": {
+    "contactCenter": "Contact Center",
+    "info": "Information",
+    "publicOffer": "Public Offer",
+    "privacyPolicy": "Privacy Policy",
+    "sitemap": "Sitemap",
+    "allCategories": "All Categories",
+    "design": "Design",
+    "marketing": "Marketing",
+    "finance": "Finance",
+    "drones": "Drone School",
+    "media": "Cinema & Music",
+    "startup": "Start Your Business",
+    "generalEdu": "General Education",
+    "programming": "Programming",
+    "analytics": "Analytics",
+    "management": "Management",
+    "games": "Games",
+    "hobbies": "Hobbies",
+    "marketplaces": "Marketplaces",
+    "psychology": "Psychology",
+    "other": "Other",
+    "legal": "NTM “ENLIGHT”, TIN 311938090",
+    "address": "Republic of Uzbekistan, Tashkent,\nMirzo-Ulugbek district, Mustaqillik Ave 65, 1st floor",
+    "registration": "Registration No. 982705",
+    "slogan": "Digital learning environment."
   }
 }

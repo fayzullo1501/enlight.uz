@@ -44,3 +44,37 @@
   line-height: 1.4;
   opacity: 0.8;
 }
+
+@media (max-width: 768px) {
+  .about {
+    padding: 30px 20px;
+  }
+
+  .about-card {
+    padding: 30px 20px;
+    border-radius: 24px;
+  }
+
+  .about-text {
+    font-size: 22px;
+    margin-bottom: 30px;
+  }
+
+  .about-numbers {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .about-item {
+    min-width: unset;
+  }
+
+  .about-item .number {
+    font-size: 32px;
+  }
+
+  .about-item .label {
+    font-size: 14px;
+  }
+}
+

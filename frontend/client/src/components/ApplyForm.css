@@ -91,6 +91,7 @@
   text-decoration: underline;
 }
 
+/* Мобильная адаптация */
 @media (max-width: 768px) {
   .apply-card {
     padding: 30px 20px;
@@ -102,11 +103,39 @@
     font-size: 28px;
   }
 
+  .apply-left {
+  flex: unset;
+  width: 100%;
+  margin-bottom: 20px; /* регулируй отступ по вкусу */
+}
+
+
   .apply-row {
     flex-direction: column;
   }
 
+  .apply-right {
+    gap: 14px; /* было 20px */
+  }
+
+  .input-full,
+  .apply-row input {
+    font-size: 16px;
+    padding: 16px;
+  }
+
+  .apply-right button {
+    font-size: 16px;
+    padding: 16px 20px;
+  }
+
+  .policy {
+    font-size: 16px;
+  }
+
   .button-row {
-    justify-content: center;
+    justify-content: left;
+    padding-top: 10px;
   }
 }
+

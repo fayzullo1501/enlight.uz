@@ -22,7 +22,7 @@ function ApplyForm() {
           <div className="apply-row">
             <input
               type="tel"
-              placeholder="+998"
+              placeholder={t("form.phone")}
               required
             />
             <input
@@ -40,7 +40,7 @@ function ApplyForm() {
             <input type="checkbox" required />
             <span>
               {t("form.policyText")}{" "}
-              <a href="#" className="policy-link">
+              <a href="/privacy" className="policy-link" target="_blank" rel="noreferrer">
                 {t("form.policyLink")}
               </a>
             </span>

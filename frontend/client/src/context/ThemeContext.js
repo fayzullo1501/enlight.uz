@@ -7,10 +7,9 @@ export function ThemeProvider({ children }) {
 
   useEffect(() => {
     const saved = localStorage.getItem("theme");
-    if (saved) {
-      setTheme(saved);
-      document.body.className = saved;
-    }
+    const initialTheme = saved || "light";
+    setTheme(initialTheme);
+    document.body.className = initialTheme; // ВСЕГДА ставим класс
   }, []);
 
   const toggleTheme = () => {

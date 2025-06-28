@@ -5,7 +5,8 @@
     "courses": "Kurslar",
     "blognews": "Blog va Yangiliklar",
     "contact": "Aloqa",
-    "professions": "Kasblar"
+    "professions": "Kasblar",
+    "class": "Sinfga kirish"
   },
   "banner": {
     "moreOffers": "Yana takliflar",
@@ -28,42 +29,74 @@
   "courses": {
     "viewAll": "Barcha kurslar",
     "more": "Batafsil",
-    "enroll": "Ro‘yxatdan o‘tish",
+    "enroll": "Ro'yxatdan o'tish",
     "language": "Til",
     "duration": "Davomiyligi",
     "format": "Format",
-    "lang": "Ruscha, O‘zbekcha",
+    "lang": "Ruscha, O'zbekcha",
     "duration3": "3 oydan boshlab",
     "duration4": "4 oydan boshlab",
     "online": "Onlayn",
     "general": "General English",
     "it": "IT English",
-    "ielts": "IELTS ga tayyorgarlik",
-    "japanese": "Yapon tili (boshlang‘ich)",
+    "ielts": "IELTS tayyorgarlik",
+    "japanese": "Yapon tili (boshlang'ich)",
     "individual": "General English (Individual)",
-    "chinese": "Yangi boshlovchilar uchun Xitoy tili"
+    "chinese": "Xitoy tili (boshlang'ich)",
+    "currency": "so'm",
+    "monthlySuffix": "so'm/oyiga"
   },
-
   "professions": {
     "viewAll": "Barcha kasblar",
-    "accountant": "Бухгалтер",
-    "designer": "Дизайнер интерьера",
-    "developer": "Frontend-разработчик",
-    "marketer": "Интернет-маркетолог",
-    "hr": "HR-менеджер",
-    "pm": "Project Manager",
-    "language": "Язык",
-    "durationTitle": "Продолжительность",
-    "formatTitle": "Формат",
-    "lang": "Русский, Узбекский",
-    "duration": "от 3 месяцев",
-    "format": "Онлайн",
-    "more": "Подробнее",
-    "enroll": "Записаться"
+    "accountant": "Buxgalter",
+    "designer": "Ichki dizayner",
+    "developer": "Frontend dasturchi",
+    "marketer": "Raqamli marketolog",
+    "hr": "HR menejer",
+    "pm": "Loyiha menejeri",
+    "language": "Til",
+    "durationTitle": "Davomiyligi",
+    "formatTitle": "Format",
+    "lang": "Rus, O'zbek",
+    "duration": "3 oydan boshlab",
+    "currency": "so'm",
+    "monthlySuffix": "so'm/oyiga",
+    "format": "Online",
+    "more": "Batafsil",
+    "enroll": "Ro'yxatdan o'tish"
+  },
+  "certificate": {
+    "title": "Enlight sertifikati",
+    "description": "Kursni tugatganingizni tasdiqlaydi va ishga joylashishda qo‘shimcha afzallik bo‘ladi.",
+    "button": "Sertifikatni ko‘rish"
+  },
+  "reviews": {
+    "title": "Biz haqimizda fikrlar",
+    "coursePrefix": "Kurs",
+    "0": {
+      "name": "Ruslan Ismoilov, O‘zbekiston, Toshkent",
+      "course": "1C Dasturchi kasbi",
+      "text": "Hammasi a'lo, ayniqsa kuratorning ishi. Amaliy topshiriqlarni o‘z vaqtida ko‘rib chiqish va Telegram guruhi juda yoqdi: istalgan vaqtda savol berish mumkin va tezda javob olinadi."
+    },
+    "1": {
+      "name": "Muhammadjon Nabiev, O‘zbekiston, Farg‘ona",
+      "course": "Fullstack Dasturchi kasbi",
+      "text": "Hammasi tushunarli va aniq tushuntirilgan. Darslar boshlanishidan oldin bu kasbni o‘rganish imkonsiz deb o‘ylagandim, lekin Skillbox aksini isbotladi. Katta rahmat!"
+    },
+    "2": {
+      "name": "Aliya Raximova, O‘zbekiston, Samarqand",
+      "course": "Grafik Dizayner kasbi",
+      "text": "Juda zo'r yondashuv! Ko‘p amaliyot, qiziqarli topshiriqlar va ajoyib murabbiylar."
+    },
+    "3": {
+      "name": "Sherzod Karimov, O‘zbekiston, Andijon",
+      "course": "Data Analyst kasbi",
+      "text": "Materiallar sodda va tushunarli tarzda taqdim etiladi. Qisqa vaqt ichida ko‘p narsalarni o‘rgandim."
+    }
   },
   "promo": {
     "title": "Enlight Club.",
-    "description": "ta'rif",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tortor augue, aliquet at est condimentum, posuere vehicula velit. Sed convallis tellus neque. Nam eget venenatis eros, vitae auctor mi. Etiam turpis urna, sollicitudin pretium imperdiet eget, fringilla in justo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eget mi risus. Duis dignissim feugiat elementum. Phasellus faucibus neque id nulla feugiat laoreet. Curabitur at nibh eget orci interdum tincidunt. Aliquam in efficitur orci.",
     "more": "Batafsil"
   },
   "blog": {
@@ -78,12 +111,40 @@
     "desc3": "Описание новости",
     "date3": "01.05.2025"
   },
-  "apply": {
-    "title": "Записаться на курс или получить бесплатную консультацию",
-    "name": "Имя",
-    "phone": "Телефон",
-    "email": "Электронная почта",
-    "button": "Записаться на курс",
-    "privacy": "Отправляя заявку, вы даёте согласие на обработку своих персональных данных в соответствии с <a href='#'>политикой конфиденциальности</a>."
+  "form": {
+    "title": "Kursga yoziling yoki bepul maslahat oling",
+    "name": "Ism",
+    "phone": "Telefon",
+    "email": "Elektron pochta",
+    "button": "Kursga yozilish",
+    "policyText": "So‘rov yuborish orqali siz shaxsiy maʼlumotlaringizni quyidagiga muvofiq qayta ishlashga rozilik bildirasiz",
+    "policyLink": "maxfiylik siyosati"
+  },
+  "footer": {
+    "contactCenter": "Kontakt markazi",
+    "info": "Ma'lumot",
+    "publicOffer": "Ommaviy oferta",
+    "privacyPolicy": "Shaxsiy ma'lumotlarni qayta ishlash siyosati",
+    "sitemap": "Sayt xaritasi",
+    "allCategories": "Barcha yo‘nalishlar",
+    "design": "Dizayn",
+    "marketing": "Marketing",
+    "finance": "Moliya",
+    "drones": "Dron maktabi",
+    "media": "Kino va musiqa",
+    "startup": "O‘z biznesingizni boshlang",
+    "generalEdu": "Umumiy ta’lim",
+    "programming": "Dasturlash",
+    "analytics": "Tahlil",
+    "management": "Boshqaruv",
+    "games": "O‘yinlar",
+    "hobbies": "Xobbi va qiziqishlar",
+    "marketplaces": "Marketpleyslar",
+    "psychology": "Psixologiya",
+    "other": "Boshqalar",
+    "legal": "NTM “ENLIGHT”, STIR 311938090",
+    "address": "O‘zbekiston Respublikasi, Toshkent shahri,\nMirzo-Ulug‘bek tumani, Mustaqillik ko‘chasi 65, 1-qavat",
+    "registration": "Ro‘yxatdan o‘tish raqami 982705",
+    "slogan": "Raqamli ta'lim muhiti."
   }
 }

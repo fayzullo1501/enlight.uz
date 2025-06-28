@@ -68,3 +68,14 @@ body.dark .view-all {
   opacity: 0.7;
   margin-top: 4px;
 }
+
+/* Мобильная адаптация */
+@media (max-width: 768px) {
+  .news-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .news-header h2 {
+    font-size: 28px;
+  }
+}

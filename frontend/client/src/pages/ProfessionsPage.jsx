@@ -1,40 +1,17 @@
 import { useTranslation } from "react-i18next";
 import { useNavigate } from "react-router-dom";
-import { useState, useEffect } from "react";
 import professions from "../data/professionsData";
-import "./Professions.css";
+import "./ProfessionsPage.css";
 
-function Professions() {
+function ProfessionsPage() {
   const { t, i18n } = useTranslation();
   const navigate = useNavigate();
-  const [isMobile, setIsMobile] = useState(false);
-
-  useEffect(() => {
-    const handleResize = () => {
-      setIsMobile(window.innerWidth <= 768);
-    };
-    handleResize();
-    window.addEventListener("resize", handleResize);
-    return () => window.removeEventListener("resize", handleResize);
-  }, []);
-
   const langProfessions = professions[i18n.language] || [];
-  const visibleProfessions = isMobile ? langProfessions.slice(0, 3) : langProfessions.slice(0, 6);
 
   return (
-    <section className="professions">
-      <div className="professions-header">
-        <h2>{t("nav.professions")}</h2>
-        <span
-          className="view-all"
-          onClick={() => navigate(`/${i18n.language}/professions`)}
-        >
-          {t("professions.viewAll")} →
-        </span>
-      </div>
-
+    <section className="professions-page">
       <div className="professions-grid">
-        {visibleProfessions.map((item) => (
+        {langProfessions.map((item) => (
           <div className="profession-card" key={item.id}>
             <h3>
               {item.title[i18n.language]}
@@ -73,4 +50,4 @@ function Professions() {
   );
 }
 
-export default Professions;
+export default ProfessionsPage;
