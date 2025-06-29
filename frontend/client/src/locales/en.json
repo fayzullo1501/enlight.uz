@@ -1,0 +1,174 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "courses": "Courses",
+    "blognews": "Blog & News",
+    "contact": "Contacts",
+    "professions": "Proffesions",
+    "class": "Enter Class"
+  },
+  "banner": {
+    "moreOffers": "Digital learning environment",
+    "mainTitle": "We help people gain in-demand skills and grow confidently in career and life",
+    "button": "All courses",
+    "blogSub": "INSIGHTS & IDEAS",
+    "blogTitle": "Read helpful articles, tips, and the latest news",
+    "aboutSub": "LEARN MORE ABOUT US",
+    "aboutTitle": "About the company",
+    "contactSub": "HAVE QUESTIONS OR SUGGESTIONS?",
+    "contactTitle": "Contact us"
+  },
+  "about": {
+    "description": "We combine online courses, practice, community, and experts to provide you not just with knowledge, but real skills and growth. Our mission is to make quality education accessible, practical, and results-driven.",
+    "years": "years in the market",
+    "graduates": "graduates worldwide",
+    "partners": "company employees trained and working in our systems",
+    "mentors": "mentors and experts with hands-on experience"
+  },
+  "courses": {
+    "viewAll": "All courses",
+    "more": "More",
+    "enroll": "Enroll",
+    "language": "Language",
+    "duration": "Duration",
+    "format": "Format",
+    "lang": "Russian, Uzbek",
+    "duration3": "from 3 months",
+    "duration4": "from 4 months",
+    "online": "Online",
+    "general": "General English",
+    "it": "IT English",
+    "ielts": "IELTS Preparation",
+    "japanese": "Japanese (basic)",
+    "individual": "General English (Individual)",
+    "chinese": "Chinese for Beginners",
+    "currency": "UZS",
+    "monthlySuffix": "UZS/month"
+  },
+  "professions": {
+    "viewAll": "All Professions",
+    "accountant": "Accountant",
+    "designer": "Interior Designer",
+    "developer": "Frontend Developer",
+    "marketer": "Digital Marketer",
+    "hr": "HR Manager",
+    "pm": "Project Manager",
+    "language": "Language",
+    "durationTitle": "Duration",
+    "formatTitle": "Format",
+    "lang": "Russian, Uzbek",
+    "duration": "from 3 months",
+    "currency": "UZS",
+    "monthlySuffix": "UZS/month",
+    "format": "Online",
+    "more": "More details",
+    "enroll": "Enroll"
+  },
+  "certificate": {
+    "title": "Certificate from Enlight",
+    "description": "Confirms that you have completed the course and will be an added value when applying for a job.",
+    "button": "View certificate"
+  },
+  "reviews": {
+    "title": "What they say about us",
+    "coursePrefix": "Course",
+    "0": {
+      "name": "Ruslan Ismailov, Uzbekistan, Tashkent",
+      "course": "1C Developer Profession",
+      "text": "Everything is great, especially the curator's work. I liked the timely review of practical tasks and the Telegram chat group where you can ask any question and get an answer at any time."
+    },
+    "1": {
+      "name": "Muhammadjon Nabiev, Uzbekistan, Fergana",
+      "course": "Fullstack Developer Profession",
+      "text": "Everything is clear and explained concisely. Before starting, I thought it was impossible to learn the profession, but Skillbox proved otherwise. Thank you very much!"
+    },
+    "2": {
+      "name": "Aliya Rakhimova, Uzbekistan, Samarkand",
+      "course": "Graphic Designer Profession",
+      "text": "Very cool approach! Lots of practice, interesting tasks, and excellent mentors."
+    },
+    "3": {
+      "name": "Sherzod Karimov, Uzbekistan, Andijan",
+      "course": "Data Analyst Profession",
+      "text": "The material is presented in a simple and accessible way. I learned a lot in a short time."
+    }
+  },
+  "promo": {
+    "title": "Enlight Club — your space for growth.",
+    "description": "A program for active Enlight residents who want more: more knowledge, networking, opportunities, and hands-on experience. Participation is free and available after enrolling in any course. You’ll join a vibrant community with regular business breakfasts, masterclasses, workshops, coaching sessions, meetings with entrepreneurs, career consultations, and practical work in our innovation lab. This is more than just a club — it’s a place for experience exchange, networking, and personal growth. Here, you’ll find support, the right environment, and tools to grow confidently in your career and business.",
+    "more": "Learn more"
+  },
+  "blog": {
+    "viewAll": "Все профессии",
+    "title1": "Название Новости",
+    "desc1": "Краткое описание",
+    "date1": "22.05.2025",
+    "title2": "Новая статья",
+    "desc2": "Ещё одно описание",
+    "date2": "15.05.2025",
+    "title3": "Новости компании",
+    "desc3": "Описание новости",
+    "date3": "01.05.2025"
+  },
+  "form": {
+    "title": "Sign up for a course or get a free consultation",
+    "name": "Name",
+    "phone": "Phone",
+    "email": "Email",
+    "button": "Enroll in a course",
+    "policyText": "By submitting the form, you agree to the processing of your personal data in accordance with our",
+    "policyLink": "privacy policy"
+  },
+  "footer": {
+    "contactCenter": "Contact Center",
+    "info": "Information",
+    "publicOffer": "Public Offer",
+    "privacyPolicy": "Privacy Policy",
+    "sitemap": "Sitemap",
+    "company": "Company",
+    "about": "About Us",
+    "courses": "Courses",
+    "professions": "Professions",
+    "blog": "Blog & News",
+    "team": "Team",
+    "contacts": "Contacts",
+    "allCategories": "All Categories",
+    "languages": "Languages",
+    "programming": "Programming",
+    "analytics": "Analytics",
+    "design": "Design",
+    "management": "Management",
+    "marketing": "Marketing",
+    "legal": "NEO “ENLIGHT”, TIN 311938090",
+    "address": "Republic of Uzbekistan, Tashkent,\nChilanzar district, 5-quarter, 4th floor",
+    "registration": "Registration number 2737306",
+    "slogan": "Digital learning environment."
+  },
+
+
+
+  "aboutIntro": {
+    "title": "Inspiring Learning",
+    "cta": "Unlock your potential with Enlight",
+    "link": "all courses",
+    "missionTitle": "We help students, professionals, and organizations reach new heights through our educational programs.",
+    "missionDesc": "The Enlight Learning Center was created by FAYKHANUR Ltd to contribute to the education and economy sectors of Uzbekistan. It is part of the Enlight brand's educational ecosystem.",
+    "linkEdu": "Enlight Learning Center",
+    "linkLms": "LMS system for educational business",
+    "linkUni": "University",
+    "linkClub": "Personal Growth Club",
+    "teamDesc": "Our team consists of experienced teachers, developers, and mentors who support students and professionals in achieving their goals. We view education as the key to success and provide support at every stage of the student journey."
+  },
+  "contact": {
+    "addressTitle": "Address.",
+    "addressText": "Chilanzar-5, Tashkent, Uzbekistan, Building 16, 100135",
+    "addressNote": "We are ready to answer your questions and discuss possible cooperation.",
+    "phoneTitle": "Phone.",
+    "phoneNote": "Call us for consultations and answers to your questions. We are always ready to help.",
+    "emailTitle": "Email.",
+    "emailNote": "Send us a detailed message and we will get back to you shortly to discuss further cooperation.",
+    "socialTitle": "Follow us.",
+    "socialNote": "Follow us on social media to stay up to date with news, events, and updates."
+  }
+}

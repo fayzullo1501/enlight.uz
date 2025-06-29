@@ -1,0 +1,138 @@
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  padding: 0;
+  overflow-y: auto;
+}
+
+.modal-card {
+  background: #181818;
+  color: #fff;
+  border-radius: 24px;
+  padding: 40px;
+  width: 90%;
+  max-width: 600px;
+  box-sizing: border-box;
+}
+
+.modal-card h2 {
+  margin-top: 0;
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 24px;
+}
+
+.modal-form {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.modal-form input {
+  padding: 16px;
+  font-size: 16px;
+  border-radius: 10px;
+  border: none;
+  background: #2b2b2b;
+  color: #fff;
+}
+
+.modal-row {
+  display: flex;
+  gap: 12px;
+}
+
+.modal-row input {
+  flex: 1;
+}
+
+.modal-policy {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+.modal-policy input[type="checkbox"] {
+  margin-top: 4px;
+}
+
+.modal-policy a {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.modal-form button {
+  background: #2a66f5;
+  color: #fff;
+  padding: 16px;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+body.dark .modal-card {
+  background: #181818;
+  color: #fff;
+}
+
+body.light .modal-card {
+  background: #f9f9f9;
+  color: #000;
+}
+
+body.light .modal-form input,
+body.light .modal-row input {
+  background: #e0e0e0;
+  color: #000;
+}
+
+body.light .modal-policy a {
+  color: #000;
+}
+
+body.light .modal-form button {
+  background: #2a66f5;
+  color: #fff;
+}
+
+/* Mobile only */
+@media (max-width: 768px) {
+  .modal-overlay {
+    align-items: flex-start;
+    padding: 40px 16px;
+  }
+
+  .modal-card {
+    padding: 24px;
+    border-radius: 16px;
+    width: 100%;
+  }
+
+  .modal-card h2 {
+    font-size: 22px;
+    text-align: left;
+  }
+
+  .modal-row {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .modal-form input,
+  .modal-form button {
+    font-size: 15px;
+    padding: 14px;
+  }
+
+  .modal-policy {
+    font-size: 13px;
+  }
+}

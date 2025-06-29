@@ -1,0 +1,133 @@
+.about-intro-section {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0px 16px 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.about-intro-left {
+  flex: 1 1 40%;
+}
+
+.about-intro-left h2 {
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+/* Группа текста и кнопки */
+.about-intro-text-button-group {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 40px;
+  gap: 24px;
+}
+
+/* Текст кнопки */
+.about-intro-button-text {
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+  align-items: flex-end;
+  gap: 6px;
+  line-height: 1.4;
+}
+
+.about-intro-button-text strong {
+  font-size: 20px;
+  font-weight: 600;
+  white-space: pre-line;
+}
+
+.about-intro-button-text span {
+  font-size: 14px;
+  letter-spacing: 1px;
+  opacity: 0.6;
+}
+
+/* Кнопка */
+.about-intro-button {
+  width: 70px;
+  height: 70px;
+  border: 2px solid currentColor;
+  border-radius: 12px;
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  color: inherit;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.about-intro-button:hover {
+  background-color: #3b82f6;
+  color: white;
+  border-color: #3b82f6;
+}
+
+/* Правая часть */
+.about-intro-right {
+  flex: 1 1 50%;
+}
+
+.about-intro-right h3 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
+.about-intro-right p,
+.about-intro-right ul {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 14px;
+}
+
+.about-intro-right ul {
+  padding-left: 16px;
+}
+
+/* Цвета */
+body.dark .about-intro-section {
+  color: #fff;
+}
+
+body.dark .about-intro-section a {
+  color: #5C9DFF;
+}
+
+body.light .about-intro-section {
+  color: #000;
+}
+
+body.light .about-intro-section a {
+  color: #000;
+}
+
+/* Адаптив */
+@media (max-width: 768px) {
+  .about-intro-section {
+    flex-direction: column;
+  }
+
+  .about-intro-left h2 {
+    font-size: 32px;
+  }
+
+  .about-intro-text-button-group {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 14px;
+  }
+
+  .about-intro-button-text {
+    text-align: left;
+    align-items: flex-start;
+  }
+}

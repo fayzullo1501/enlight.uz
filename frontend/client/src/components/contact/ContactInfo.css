@@ -1,0 +1,121 @@
+.contact-section {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 60px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.contact-top {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 24px;
+}
+
+.contact-bottom {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+.contact-card {
+  background-color: var(--card-bg);
+  border-radius: 12px;
+  padding: 24px;
+}
+
+.contact-map {
+  border-radius: 12px;
+  overflow: hidden;
+  height: 100%;
+  min-height: 320px;
+}
+
+.contact-card h3 {
+  font-size: 26px;
+  padding-top: 0px;
+  font-weight: 700;
+  margin-bottom: 12px;
+  margin-top: 0px;
+}
+
+.contact-card p strong{
+  margin: 6px 0;
+  line-height: 1.5;
+  font-size: 20px;
+}
+
+.contact-card p {
+  margin: 6px 0;
+  line-height: 1.5;
+  font-size: 16px;
+}
+
+.contact-socials {
+  display: flex;
+  gap: 14px;
+  margin-top: 12px;
+}
+
+.contact-socials a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 42px;
+  height: 42px;
+  border: 1px solid currentColor;
+  border-radius: 10px;
+  font-size: 18px;
+  transition: 0.2s;
+  color: inherit; /* добавлено */
+  text-decoration: none; /* убирает подчёркивание */
+}
+
+
+.contact-socials a:hover {
+  background-color: #5C9DFF;
+  color: #fff;
+}
+
+body.dark {
+  --card-bg: #1e1e1e;
+  color: #fff;
+}
+
+body.light {
+  --card-bg: #f9f9f9;
+  color: #000;
+}
+
+.contact-bottom .contact-card {
+  min-height: 240px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.contact-note {
+  font-size: 14px;
+  opacity: 0.7;
+  margin-top: 16px;
+  line-height: 1.5;
+}
+
+.contact-header-social {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+
+
+@media (max-width: 1024px) {
+  .contact-top {
+    grid-template-columns: 1fr;
+  }
+
+  .contact-bottom {
+    grid-template-columns: 1fr;
+  }
+}

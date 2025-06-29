@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Arsenal&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Arsenal', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+body.light {
+  background: #ffffff;
+  color: #000000;
+}
+
+body.dark {
+  background: #121212;
+  color: #ffffff;
+}
+
+.header, .footer {
+  transition: background 0.3s, color 0.3s;
+}

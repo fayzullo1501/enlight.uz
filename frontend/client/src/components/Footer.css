@@ -1,0 +1,81 @@
+.footer {
+  background: #181818;
+  color: #fff;
+  font-family: 'Arsenal', sans-serif;
+}
+
+.footer-container {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+.footer-top {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.footer-column {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  min-width: 160px;
+  flex: 1;
+}
+
+.footer-title {
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 4px;
+}
+
+.footer-subtitle {
+  font-size: 16px;
+  color: #ccc;
+  margin: 0;
+  line-height: 1.4;
+}
+
+.footer-icons {
+  display: flex;
+  gap: 12px;
+  font-size: 20px;
+  margin-top: 8px;
+}
+
+.footer-heading {
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 4px;
+  color: #fff;
+}
+
+.footer a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+.footer-gray {
+  color: #999;
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+.footer-bottom {
+  border-top: 1px solid #333;
+  margin-top: 40px;
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 10px;
+  font-size: 16px;
+}

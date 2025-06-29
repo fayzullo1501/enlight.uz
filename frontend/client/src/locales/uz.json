@@ -1,0 +1,174 @@
+{
+  "nav": {
+    "home": "Asosiy",
+    "about": "Kompaniya haqida",
+    "courses": "Kurslar",
+    "blognews": "Blog va Yangiliklar",
+    "contact": "Aloqa",
+    "professions": "Kasblar",
+    "class": "Sinfga kirish"
+  },
+  "banner": {
+    "moreOffers": "Raqamli ta’lim muhiti",
+    "mainTitle": "Odamlarga zamonaviy ko‘nikmalarni egallash va ishda hamda hayotda ishonch bilan o‘sishga yordam beramiz",
+    "button": "Barcha kurslar",
+    "blogSub": "FIKRLAR VA G‘OYALAR",
+    "blogTitle": "Foydali maqolalar, maslahatlar va so‘nggi yangiliklarni o‘qing",
+    "aboutSub": "BIZ HAQIMIZDA BATAFSIL",
+    "aboutTitle": "Kompaniya haqida",
+    "contactSub": "SAVOLLARINGIZ YOKI TAKLIFLARINGIZ BORMI?",
+    "contactTitle": "Biz bilan bog‘laning"
+  },
+  "about": {
+    "description": "Biz onlayn kurslar, amaliyot, hamjamiyat va mutaxassislarni birlashtirib, sizga faqat bilim emas, balki haqiqiy ko‘nikmalar va rivojlanish imkonini taqdim etamiz. Bizning vazifamiz — sifatli ta’limni hammaga qulay, amaliy va natijaga yo‘naltirilgan qilish.",
+    "years": "yildan beri bozorda",
+    "graduates": "butun dunyo bo‘ylab bitiruvchilar",
+    "partners": "bizning tizimlarda o‘qigan va ishlayotgan kompaniya xodimlari",
+    "mentors": "amaliy tajribaga ega mentorlar va ekspertlar"
+  },
+  "courses": {
+    "viewAll": "Barcha kurslar",
+    "more": "Batafsil",
+    "enroll": "Ro'yxatdan o'tish",
+    "language": "Til",
+    "duration": "Davomiyligi",
+    "format": "Format",
+    "lang": "Ruscha, O'zbekcha",
+    "duration3": "3 oydan boshlab",
+    "duration4": "4 oydan boshlab",
+    "online": "Onlayn",
+    "general": "General English",
+    "it": "IT English",
+    "ielts": "IELTS tayyorgarlik",
+    "japanese": "Yapon tili (boshlang'ich)",
+    "individual": "General English (Individual)",
+    "chinese": "Xitoy tili (boshlang'ich)",
+    "currency": "so'm",
+    "monthlySuffix": "so'm/oyiga"
+  },
+  "professions": {
+    "viewAll": "Barcha kasblar",
+    "accountant": "Buxgalter",
+    "designer": "Ichki dizayner",
+    "developer": "Frontend dasturchi",
+    "marketer": "Raqamli marketolog",
+    "hr": "HR menejer",
+    "pm": "Loyiha menejeri",
+    "language": "Til",
+    "durationTitle": "Davomiyligi",
+    "formatTitle": "Format",
+    "lang": "Rus, O'zbek",
+    "duration": "3 oydan boshlab",
+    "currency": "so'm",
+    "monthlySuffix": "so'm/oyiga",
+    "format": "Online",
+    "more": "Batafsil",
+    "enroll": "Ro'yxatdan o'tish"
+  },
+  "certificate": {
+    "title": "Enlight sertifikati",
+    "description": "Kursni tugatganingizni tasdiqlaydi va ishga joylashishda qo‘shimcha afzallik bo‘ladi.",
+    "button": "Sertifikatni ko‘rish"
+  },
+  "reviews": {
+    "title": "Biz haqimizda fikrlar",
+    "coursePrefix": "Kurs",
+    "0": {
+      "name": "Ruslan Ismoilov, O‘zbekiston, Toshkent",
+      "course": "1C Dasturchi kasbi",
+      "text": "Hammasi a'lo, ayniqsa kuratorning ishi. Amaliy topshiriqlarni o‘z vaqtida ko‘rib chiqish va Telegram guruhi juda yoqdi: istalgan vaqtda savol berish mumkin va tezda javob olinadi."
+    },
+    "1": {
+      "name": "Muhammadjon Nabiev, O‘zbekiston, Farg‘ona",
+      "course": "Fullstack Dasturchi kasbi",
+      "text": "Hammasi tushunarli va aniq tushuntirilgan. Darslar boshlanishidan oldin bu kasbni o‘rganish imkonsiz deb o‘ylagandim, lekin Skillbox aksini isbotladi. Katta rahmat!"
+    },
+    "2": {
+      "name": "Aliya Raximova, O‘zbekiston, Samarqand",
+      "course": "Grafik Dizayner kasbi",
+      "text": "Juda zo'r yondashuv! Ko‘p amaliyot, qiziqarli topshiriqlar va ajoyib murabbiylar."
+    },
+    "3": {
+      "name": "Sherzod Karimov, O‘zbekiston, Andijon",
+      "course": "Data Analyst kasbi",
+      "text": "Materiallar sodda va tushunarli tarzda taqdim etiladi. Qisqa vaqt ichida ko‘p narsalarni o‘rgandim."
+    }
+  },
+  "promo": {
+    "title": "Enlight Club — o‘sish uchun makoningiz.",
+    "description": "Bu ko‘proq bilim, ko‘proq aloqa, ko‘proq imkoniyat va amaliy tajriba istagan faol Enlight rezidentlari uchun dasturdir. Ishtirok mutlaqo bepul bo‘lib, istalgan kursga yozilgandan so‘ng ochiladi. Siz muntazam tashkil etiladigan biznes-nonushtalar, master-klasslar, treninglar, tadbirkorlar bilan uchrashuvlar, kouch-sessiyalar, martaba tahlillari va laboratoriyamizdagi amaliy mashg‘ulotlar o‘tkaziladigan faol hamjamiyatga qo‘shilasiz. Bu shunchaki klub emas — bu tajriba almashinuvi, netvorking va shaxsiy rivojlanish hududi. Bu yerda siz kasbiy va biznes o‘sish yo‘lingizda zarur bo‘lgan muhit, qo‘llab-quvvatlov va vositalarni topasiz.",
+    "more": "Batafsil"
+  },
+  "blog": {
+    "viewAll": "Все профессии",
+    "title1": "Название Новости",
+    "desc1": "Краткое описание",
+    "date1": "22.05.2025",
+    "title2": "Новая статья",
+    "desc2": "Ещё одно описание",
+    "date2": "15.05.2025",
+    "title3": "Новости компании",
+    "desc3": "Описание новости",
+    "date3": "01.05.2025"
+  },
+  "form": {
+    "title": "Kursga yoziling yoki bepul maslahat oling",
+    "name": "Ism",
+    "phone": "Telefon",
+    "email": "Elektron pochta",
+    "button": "Kursga yozilish",
+    "policyText": "So‘rov yuborish orqali siz shaxsiy maʼlumotlaringizni quyidagiga muvofiq qayta ishlashga rozilik bildirasiz",
+    "policyLink": "maxfiylik siyosati"
+  },
+  "footer": {
+    "contactCenter": "Aloqa markazi",
+    "info": "Ma'lumot",
+    "publicOffer": "Ommaviy oferta",
+    "privacyPolicy": "Shaxsiy ma'lumotlarni qayta ishlash siyosati",
+    "sitemap": "Sayt xaritasi",
+    "company": "Kompaniya",
+    "about": "Kompaniya haqida",
+    "courses": "Kurslar",
+    "professions": "Kasblar",
+    "blog": "Blog va Yangiliklar",
+    "team": "Jamoa",
+    "contacts": "Aloqa",
+    "allCategories": "Barcha yo'nalishlar",
+    "languages": "Chet tillari",
+    "programming": "Dasturlash",
+    "analytics": "Tahlil",
+    "design": "Dizayn",
+    "management": "Boshqaruv",
+    "marketing": "Marketing",
+    "legal": "NTM «ENLIGHT», STIR 311938090",
+    "address": "O'zbekiston Respublikasi, Toshkent shahri,\nChilonzor tumani, 5-kvartal 16 uy, 4-qavat",
+    "registration": "Ro'yxatga olish raqami 2737306",
+    "slogan": "Raqamli taʼlim muhiti."
+  },
+
+
+
+  "aboutIntro": {
+    "title": "Ta'limga ilhom bag'ishlaymiz",
+    "cta": "Enlight bilan o‘z salohiyatingizni oching",
+    "link": "barcha kurslar",
+    "missionTitle": "Biz talabalar, mutaxassislar va tashkilotlarga ta'lim dasturlarimiz orqali yangi cho‘qqilarga erishishga yordam beramiz.",
+    "missionDesc": "Enlight o‘quv markazi FAYKHANUR Ltd kompaniyasi tomonidan O‘zbekiston ta’lim va iqtisodiyot sohasiga hissa qo‘shish maqsadida tashkil etilgan. U Enlight brendining ta’lim ekotizimining bir qismidir.",
+    "linkEdu": "Enlight o‘quv markazi",
+    "linkLms": "Ta'lim biznesi uchun LMS tizimi",
+    "linkUni": "Universitet",
+    "linkClub": "Shaxsiy o‘sish klubi",
+    "teamDesc": "Bizning jamoamiz tajribali o‘qituvchilar, dasturchilar va murabbiylardan iborat bo‘lib, talabalar va mutaxassislarga o‘z maqsadlariga erishishda yordam beradi. Ta'lim muvaffaqiyat kaliti deb hisoblanadi va biz talabalarga har bir bosqichda yordam beramiz."
+  },
+  "contact": {
+    "addressTitle": "Manzil.",
+    "addressText": "Chilonzor-5, Toshkent, O‘zbekiston, 16-uy, 100135",
+    "addressNote": "Savollaringizga javob berish va hamkorlik imkoniyatlarini muhokama qilishga tayyormiz.",
+    "phoneTitle": "Telefon.",
+    "phoneNote": "Maslahat va savollaringizga javob olish uchun bizga qo‘ng‘iroq qiling. Har doim yordam berishga tayyormiz.",
+    "emailTitle": "Email.",
+    "emailNote": "Batafsil xabar yuboring, biz siz bilan imkon qadar tezroq bog‘lanamiz va hamkorlikni muhokama qilamiz.",
+    "socialTitle": "Bizni kuzating.",
+    "socialNote": "Yangiliklar, tadbirlar va yangilanishlardan xabardor bo‘lish uchun bizni ijtimoiy tarmoqlarda kuzatib boring."
+  }
+}

@@ -1,0 +1,22 @@
+.course-details {
+  padding: 48px 16px;
+  padding-top: 0px;
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+.course-details-card {
+  background-color: var(--card-bg);
+  border-radius: 20px;
+  padding: 32px;
+}
+
+.course-details-card h2 {
+  font-size: 28px;
+  margin-bottom: 16px;
+}
+
+.course-details-card p {
+  font-size: 18px;
+  line-height: 1.6;
+}
