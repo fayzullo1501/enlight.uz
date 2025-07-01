@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Главная -->
+  <url><loc>https://enlight.uz/ru/</loc></url>
+  <url><loc>https://enlight.uz/uz/</loc></url>
+  <url><loc>https://enlight.uz/en/</loc></url>
+
+  <!-- О нас -->
+  <url><loc>https://enlight.uz/ru/about</loc></url>
+  <url><loc>https://enlight.uz/uz/about</loc></url>
+  <url><loc>https://enlight.uz/en/about</loc></url>
+
+  <!-- Курсы -->
+  <url><loc>https://enlight.uz/ru/courses</loc></url>
+  <url><loc>https://enlight.uz/uz/courses</loc></url>
+  <url><loc>https://enlight.uz/en/courses</loc></url>
+
+  <!-- Профессии -->
+  <url><loc>https://enlight.uz/ru/professions</loc></url>
+  <url><loc>https://enlight.uz/uz/professions</loc></url>
+  <url><loc>https://enlight.uz/en/professions</loc></url>
+
+  <!-- Блог -->
+  <url><loc>https://enlight.uz/ru/blognews</loc></url>
+  <url><loc>https://enlight.uz/uz/blognews</loc></url>
+  <url><loc>https://enlight.uz/en/blognews</loc></url>
+
+  <!-- Контакты -->
+  <url><loc>https://enlight.uz/ru/contact</loc></url>
+  <url><loc>https://enlight.uz/uz/contact</loc></url>
+  <url><loc>https://enlight.uz/en/contact</loc></url>
+</urlset>

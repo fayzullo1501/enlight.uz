@@ -1,4 +1,4 @@
-import { Link, useNavigate } from "react-router-dom";
+import { Link, useNavigate, useLocation } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import { useContext, useState } from "react";
 import { ThemeContext } from "../context/ThemeContext";
@@ -10,6 +10,7 @@ import flagEN from "../assets/en-flag.svg";
 function Header() {
   const { t, i18n } = useTranslation();
   const navigate = useNavigate();
+  const location = useLocation();
   const { toggleTheme, theme } = useContext(ThemeContext);
   const [showLangs, setShowLangs] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
@@ -17,7 +18,8 @@ function Header() {
   const changeLanguage = (lng) => {
     localStorage.setItem("preferredLanguage", lng);
     i18n.changeLanguage(lng);
-    navigate(`/${lng}`);
+    const newPath = location.pathname.replace(/^\/(ru|uz|en)/, `/${lng}`);
+    navigate(newPath);
     setShowLangs(false);
     setMenuOpen(false);
   };
@@ -72,7 +74,7 @@ function Header() {
           </div>
 
           <button className="theme-btn" onClick={toggleTheme}>
-            {theme === "light" ? "🌙" : "☀️"}
+            {theme === "light" ? "🌙" : "🔆"}
           </button>
 
           <a href="https://lms.enlight.uz"
@@ -104,7 +106,7 @@ function Header() {
             </div>
           )}
           <button className="theme-btn" onClick={toggleTheme}>
-            {theme === "light" ? "🌙" : "☀️"}
+            {theme === "light" ? "🌙" : "🔆"}
           </button>
           <a href="https://lms.enlight.uz" className="class-btn" target="_blank" rel="noreferrer">
             Войти в класс

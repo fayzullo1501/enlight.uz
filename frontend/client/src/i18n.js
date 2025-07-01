@@ -5,6 +5,8 @@ import translationRU from './locales/ru.json';
 import translationUZ from './locales/uz.json';
 import translationEN from './locales/en.json';
 
+const savedLang = localStorage.getItem('lang') || 'ru';
+
 i18n
   .use(initReactI18next)
   .init({
@@ -13,9 +15,14 @@ i18n
       uz: { translation: translationUZ },
       en: { translation: translationEN },
     },
-    lng: 'ru',
+    lng: savedLang,
     fallbackLng: 'ru',
     interpolation: { escapeValue: false },
   });
+
+export const changeLanguage = (lang) => {
+  i18n.changeLanguage(lang);
+  localStorage.setItem('lang', lang);
+};
 
 export default i18n;

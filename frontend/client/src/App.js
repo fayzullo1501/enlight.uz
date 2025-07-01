@@ -19,6 +19,7 @@ import ScrollToTopButton from "./components/ScrollToTopButton";
 import DetailsPage from "./pages/DetailsPage";
 import BlogNewsDetailsPage from "./pages/BlogNewsDetailsPage";
 import ProfessionsPage from "./pages/ProfessionsPage";
+import ScrollToTop from "./components/ScrollToTop";
 
 
 
@@ -36,6 +37,7 @@ function LanguageWrapper() {
   return (
     <>
       <Header />
+      <ScrollToTop />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<AboutPage />} />
