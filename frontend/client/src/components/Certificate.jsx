@@ -17,7 +17,9 @@ const Certificate = () => {
         <div className="certificate-right">
           <h2>{t("certificate.title")}</h2>
           <p>{t("certificate.description")}</p>
-          <button>{t("certificate.button")}</button>
+          <a href="/enlight-certificate.pdf" target="_blank" rel="noopener noreferrer">
+            <button>{t("certificate.button")}</button>
+          </a>
         </div>
       </div>
     </section>
